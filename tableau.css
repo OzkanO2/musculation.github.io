@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: Roboto, sans-serif
+}
+
+
+header{
+	background: url(musculation-site-photo3.jpg) no-repeat top center;
+	background-size: cover;
+	height: 100vh;
+}
+table
+{
+	border-collapse: collapse;
+	border: 2px solid white;
+	text-align: left;
+} 
+table caption {
+	color:white;
+	font-size: 25px;
+	background-color:blue;
+	border:2px solid black;
+}
+th {
+	font-size: 20px;
+	border:2px solid black;
+}
+td {
+	border:2px solid black;
+	font-size: 20px;
+}
+thead {
+	background-color: lightblue;
+}
+
+tbody {
+	background-color: white;
+}
+tfoot {
+	background-color: white;
+}
+
+.fond-tableau {
+	padding-left: 128px;
+	padding-top: 80px;
+}
+.retour {
+	padding:10px 0px 0px 207px;
+	color: blue;
+}
